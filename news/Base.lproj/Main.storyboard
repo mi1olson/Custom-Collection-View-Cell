@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Goh-uk-j9O">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--News-->
+        <scene sceneID="R22-OI-LkC">
+            <objects>
+                <collectionViewController id="EMH-fy-CAP" customClass="PublishersCollectionViewController" customModule="News" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Myn-17-iKm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="8" id="tZ0-Wx-qPU">
+                            <size key="itemSize" width="200" height="200"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="8" minY="8" maxX="8" maxY="8"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PublisherCell" id="h5g-XV-9wf" customClass="PublisherCollectionViewCell" customModule="News" customModuleProvider="target">
+                                <rect key="frame" x="88" y="8" width="200" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MIT Technology Review" translatesAutoresizingMaskIntoConstraints="NO" id="wc3-ND-SAq">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                        </imageView>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L1V-ku-1sd">
+                                            <rect key="frame" x="0.0" y="170" width="200" height="30"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="s3s-xv-GCb">
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ilx-tD-PK5">
+                                                        <rect key="frame" x="8" y="4" width="184" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="ilx-tD-PK5" firstAttribute="top" secondItem="s3s-xv-GCb" secondAttribute="top" constant="4" id="Bmi-ci-fLE"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ilx-tD-PK5" secondAttribute="bottom" constant="5" id="Nm6-PB-8fu"/>
+                                                    <constraint firstItem="ilx-tD-PK5" firstAttribute="leading" secondItem="s3s-xv-GCb" secondAttribute="leading" constant="8" id="PVd-aq-9J0"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ilx-tD-PK5" secondAttribute="trailing" constant="8" id="ecA-qq-khm"/>
+                                                </constraints>
+                                            </view>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="Wlu-ww-a3B"/>
+                                            </constraints>
+                                            <blurEffect style="light"/>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="L1V-ku-1sd" firstAttribute="leading" secondItem="h5g-XV-9wf" secondAttribute="leading" id="7Al-ap-af3"/>
+                                    <constraint firstItem="wc3-ND-SAq" firstAttribute="top" secondItem="h5g-XV-9wf" secondAttribute="top" id="T4R-6P-wp0"/>
+                                    <constraint firstAttribute="trailing" secondItem="L1V-ku-1sd" secondAttribute="trailing" id="VzQ-hF-IZ8"/>
+                                    <constraint firstItem="wc3-ND-SAq" firstAttribute="leading" secondItem="h5g-XV-9wf" secondAttribute="leading" id="ZAR-1y-DxU"/>
+                                    <constraint firstAttribute="bottom" secondItem="L1V-ku-1sd" secondAttribute="bottom" id="rr6-0x-bB1"/>
+                                    <constraint firstAttribute="trailing" secondItem="wc3-ND-SAq" secondAttribute="trailing" id="tfP-fa-fXQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="wc3-ND-SAq" secondAttribute="bottom" id="yFN-Tz-thC"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="publisherImageView" destination="wc3-ND-SAq" id="RGf-Nu-e1O"/>
+                                    <outlet property="publisherTitleLabel" destination="ilx-tD-PK5" id="cTr-gK-nLx"/>
+                                    <outlet property="visualEffectView" destination="L1V-ku-1sd" id="T7n-a0-sCo"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="EMH-fy-CAP" id="euf-Aq-baR"/>
+                            <outlet property="delegate" destination="EMH-fy-CAP" id="9Yu-7r-UaW"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="News" id="DSW-qR-oIa"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZBV-1r-jGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413" y="420"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wEX-hV-38S">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Goh-uk-j9O" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zqc-w9-uKf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="EMH-fy-CAP" kind="relationship" relationship="rootViewController" id="EwA-51-257"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p0J-tR-xuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-243" y="420"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MIT Technology Review" width="1004" height="1296"/>
+    </resources>
+</document>

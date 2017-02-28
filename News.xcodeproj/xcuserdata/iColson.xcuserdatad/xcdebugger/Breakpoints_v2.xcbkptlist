@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "News/PublisherCollectionViewCell.swift"
+            timestampString = "509958688.473047"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "PublisherCollectionViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "News.PublisherCollectionViewCell.visualEffectView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIVisualEffectView&gt;"
+                  moduleName = "News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iColson/Downloads/10.%20UICollectionView/3.%20Custom%20Collection%20View%20Cell/2.%20Complete/News/PublisherCollectionViewCell.swift"
+                  timestampString = "509961134.236217"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "News.PublisherCollectionViewCell.init (frame : __C.CGRect) -&gt; News.PublisherCollectionViewCell"
+                  moduleName = "News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iColson/Downloads/10.%20UICollectionView/3.%20Custom%20Collection%20View%20Cell/2.%20Complete/News/PublisherCollectionViewCell.swift"
+                  timestampString = "509961134.239279"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "158">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "News.PublisherCollectionViewCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;News.PublisherCollectionViewCell&gt;"
+                  moduleName = "News"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iColson/Downloads/10.%20UICollectionView/3.%20Custom%20Collection%20View%20Cell/2.%20Complete/News/PublisherCollectionViewCell.swift"
+                  timestampString = "509961134.241393"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
